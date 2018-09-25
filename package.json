@@ -2,7 +2,7 @@
     "name": "python-quick-print",
     "displayName": "Python Quick Print",
     "description": "Quickly print out log messages",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "AhadCove",
     "author": {
         "name": "Ahad Cove"

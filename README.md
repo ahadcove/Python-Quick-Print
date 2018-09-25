@@ -1,8 +1,4 @@
-# python Quick Print
-
-Quickly print out log messages
-
-## Features
+# Python Quick Print
 
 Quickly print out log messages
 
