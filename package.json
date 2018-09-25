@@ -2,7 +2,7 @@
     "name": "python-quick-print",
     "displayName": "Python Quick Print",
     "description": "Quickly print out log messages",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "AhadCove",
     "author": {
         "name": "Ahad Cove"
@@ -45,8 +45,8 @@
         "keybindings": [
             {
                 "command": "extension.print",
-                "key": "ctrl+l",
-                "mac": "cmd+l",
+                "key": "ctrl+shift+l",
+                "mac": "cmd+shift+l",
                 "when": "editorTextFocus"
             }
         ]
