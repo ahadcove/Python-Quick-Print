@@ -19,7 +19,7 @@ const insertText = (text: string) => {
 };
 
 export function activate(context: vscode.ExtensionContext) {
-    console.log('Python Print is now active!');
+    console.log('Python Quick Print is now active!');
 
     let disposable = vscode.commands.registerCommand('extension.print', () => {
         const editor = vscode.window.activeTextEditor;

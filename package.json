@@ -2,7 +2,7 @@
     "name": "python-quick-print",
     "displayName": "Python Quick Print",
     "description": "Quickly print out log messages",
-    "version": "0.0.1",
+    "version": "0.0.2`",
     "publisher": "AhadCove",
     "author": {
         "name": "Ahad Cove"
@@ -26,14 +26,12 @@
         "Python", "Print", "Log"
     ],
     "activationEvents": [
+        "onLanguage:python",
         "onCommand:extension.print"
     ],
     "main": "./out/extension",
-    "activationEvents": [
-        "onLanguage:python"
-    ],
     "contributes": {
-         "languages": [{
+        "languages": [{
             "id": "python",
             "aliases": ["Python", "Python3", "Python2"],
             "extensions": [".py"]
