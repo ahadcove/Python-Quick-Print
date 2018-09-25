@@ -10,7 +10,7 @@ Quickly print out log messages
 
 ## Installing
 
-This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=whtouche.python-quick-print)
+This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=AhadCove.python-quick-print)
 
 ## How to use
 
