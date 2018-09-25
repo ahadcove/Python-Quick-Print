@@ -13,7 +13,7 @@ This extension is available for free in the [Visual Studio Code Marketplace](htt
 #### Only activates with .py files
 
 * Highlight anything in the editor
-* Press Cmd+Shift+L
+* Press Cmd+L (Mac), or Ctrl+L (Windows)
 * The output (on a new line) will be: print'variable: ', variable
 
 ## License
