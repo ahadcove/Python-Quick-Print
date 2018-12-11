@@ -33,7 +33,7 @@
     "contributes": {
         "languages": [{
             "id": "python",
-            "aliases": ["Python", "Python3", "Python2"],
+            "aliases": ["Python", "Python3"],
             "extensions": [".py"]
         }],
         "commands": [
