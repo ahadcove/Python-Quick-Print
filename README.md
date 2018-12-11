@@ -8,6 +8,13 @@ Quickly print out log messages
 
 This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=AhadCove.python-quick-print)
 
+## Warning
+This uses Python 3 syntax,
+If you're using Python 2 print isn't a function.
+You can import this behavior from __future__:
+
+`from __future__ import print_function`
+
 ## How to use
 
 #### Only activates with .py files
