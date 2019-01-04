@@ -21,7 +21,7 @@ You can import this behavior from __future__:
 
 * Highlight anything in the editor
 * Press `Cmd+Shift+L` (Mac), or `Ctrl+Shift+L` (Windows)
-* The output (on a new line) will be: `print'variable: ', variable`
+* The output (on a new line) will be: `print('variable:', variable)`
 
 #### Keyboard Shortcut
 By default the keyboard shortcut is `Cmd+Shift+L` or `Ctrl+Shift+L`
