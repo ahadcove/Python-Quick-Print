@@ -1,19 +1,18 @@
-# Python Quick Print
+# Python Quick Logger
 
-Quickly print out log messages
+A fork of [Python Quick Print](https://marketplace.visualstudio.com/items?itemName=AhadCove.python-quick-print) that uses standard library Logging instances instead of print.
 
+Highlight a variable `foo` you would like to log, enter keyboard `cmd + shift + l`, and on the line below variable, it wrap `foo` as follows:
+```
+`logger.info(f'foo {type(foo)}: {foo}')`
+```
+
+I did not update this gif, this shows Python Quick Print. You get the idea...
 ![](images/demo.gif)
 
 ## Installing
 
-This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=AhadCove.python-quick-print)
-
-## Warning
-This uses Python 3 syntax,
-If you're using Python 2 print isn't a function.
-You can import this behavior from __future__:
-
-`from __future__ import print_function`
+This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=brian-crant.python-logger-vscode)
 
 ## How to use
 

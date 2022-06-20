@@ -1,15 +1,15 @@
 {
-    "name": "python-quick-print",
-    "displayName": "Python Quick Print",
-    "description": "Quickly print out log messages",
-    "version": "0.1.0",
-    "publisher": "AhadCove",
+    "name": "python-logger-vscode",
+    "displayName": "Python Quick Logger",
+    "description": "Wrap variables with stdlib Logging instances: logger.info().",
+    "version": "0.2.0",
+    "publisher": "brian-crant",
     "author": {
-        "name": "Ahad Cove"
+        "name": "Brian Crant"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/AhadCove/Python-Quick-Print"
+        "url": "https://github.com/bcrant/python-logger-vscode"
     },
     "icon": "images/icon.png",
     "galleryBanner": {
@@ -27,7 +27,9 @@
     "keywords": [
         "Python",
         "Print",
-        "Log"
+        "Log",
+        "Logger",
+        "Logging"
     ],
     "activationEvents": [
         "onLanguage:python",
@@ -70,10 +72,10 @@
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "typescript": "^2.6.1",
-        "vscode": "^1.1.21",
-        "tslint": "^5.8.0",
+        "@types/mocha": "^2.2.42",
         "@types/node": "^8.10.25",
-        "@types/mocha": "^2.2.42"
+        "tslint": "^5.8.0",
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.37"
     }
 }
