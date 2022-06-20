@@ -2,7 +2,7 @@
     "name": "python-logger-vscode",
     "displayName": "Python Quick Logger",
     "description": "Wrap variables with stdlib Logging instances: logger.info().",
-    "version": "0.2.0",
+    "version": "0.2.2",
     "publisher": "brian-crant",
     "author": {
         "name": "Brian Crant"
